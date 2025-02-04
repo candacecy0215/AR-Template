@@ -17,12 +17,15 @@ void OnDisable() => m_TrackedImageManager.trackedImagesChanged -= OnChanged;
 
 void OnChanged(ARTrackedImagesChangedEventArgs eventArgs)
 {
+    AudioSource source = GetComponent<AudioSource>();
+
     foreach (var newImage in eventArgs.added)
     {
         // Handle added event
 
         GameObject newObject = GameObject.Instantiate(shipPrefab);
         newObject.transform.SetParent(newImage.transform, false);
+        source.Play();
     }
 
     foreach (var updatedImage in eventArgs.updated)
