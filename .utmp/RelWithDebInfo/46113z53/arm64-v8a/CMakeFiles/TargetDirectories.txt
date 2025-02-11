@@ -1,0 +1,5 @@
+/Users/y7-chau/Documents/GitHub/AR-Template/.utmp/RelWithDebInfo/46113z53/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/y7-chau/Documents/GitHub/AR-Template/.utmp/RelWithDebInfo/46113z53/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/y7-chau/Documents/GitHub/AR-Template/.utmp/RelWithDebInfo/46113z53/arm64-v8a/GameActivity/CMakeFiles/game.dir
+/Users/y7-chau/Documents/GitHub/AR-Template/.utmp/RelWithDebInfo/46113z53/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/y7-chau/Documents/GitHub/AR-Template/.utmp/RelWithDebInfo/46113z53/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
