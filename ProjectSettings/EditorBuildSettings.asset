@@ -6,17 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/practice/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Scenes/AR_cube.unity
+    path: Assets/Scenes/practice/AR_cube.unity
     guid: 09611d6af6d3add4398e7af6c3a29ad2
   - enabled: 0
-    path: Assets/20250204.unity
+    path: Assets/Scenes/practice/prirateship.unity
     guid: eee5fda7c608045c1a231f4c6de50c99
-  - enabled: 1
-    path: Assets/20250211.unity
+  - enabled: 0
+    path: Assets/Scenes/practice/pirateship_2.unity
     guid: ecdfcee7d56e34dbbb09ceddc62b1dc1
+  - enabled: 1
+    path: Assets/Scenes/practice/project.unity
+    guid: 9ef4e562d2a2246c1a9d2a440439505e
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9f1bc78da32d2094e96e34486ed87860,
       type: 2}
