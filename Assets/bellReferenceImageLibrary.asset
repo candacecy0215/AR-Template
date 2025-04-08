@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: map
     m_Texture: {fileID: 2800000, guid: 5d985a86bcdbb4ec0be61382640ae3fc, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4742789659291276421
+      m_GuidHigh: 14933230221887870908
+    m_SerializedTextureGuid:
+      m_GuidLow: 12979751907768391026
+      m_GuidHigh: 17968843704692880827
+    m_Size: {x: 0.06, y: 0.08121093}
+    m_SpecifySize: 1
+    m_Name: sign
+    m_Texture: {fileID: 2800000, guid: 273bd5725797b421bbb5bb7a25285ef9, type: 3}

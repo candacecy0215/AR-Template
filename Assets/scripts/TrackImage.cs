@@ -38,7 +38,7 @@ Debug.Log("start");
                 GameObject newObject = GameObject.Instantiate(bellPrefab);
                 // parent prefab to the newImage so that they stick together.
                 newObject.transform.SetParent(newImage.transform, false);
-            }else if(newImage.referenceImage.name == "IMG_7740")
+            }else if(newImage.referenceImage.name == "sign")
             {
                 GameObject newObject = GameObject.Instantiate(giftboxPrefab);
                 newObject.transform.SetParent(newImage.transform, false);
