@@ -33,7 +33,7 @@ Debug.Log("start");
 
          
 
-            if(newImage.referenceImage.name == "IMG_7476") {
+            if(newImage.referenceImage.name == "cross") {
                 // Create new copy of your prefab
                 GameObject newObject = GameObject.Instantiate(bellPrefab);
                 // parent prefab to the newImage so that they stick together.
