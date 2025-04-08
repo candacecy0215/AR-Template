@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/practice/AR_cube.unity
     guid: 09611d6af6d3add4398e7af6c3a29ad2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/practice/prirateship.unity
     guid: eee5fda7c608045c1a231f4c6de50c99
   - enabled: 0
     path: Assets/Scenes/practice/pirateship_2.unity
     guid: ecdfcee7d56e34dbbb09ceddc62b1dc1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/practice/project.unity
     guid: 9ef4e562d2a2246c1a9d2a440439505e
   m_configObjects:
