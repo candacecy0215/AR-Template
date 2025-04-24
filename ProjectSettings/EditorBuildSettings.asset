@@ -11,15 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/practice/AR_cube.unity
     guid: 09611d6af6d3add4398e7af6c3a29ad2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/practice/prirateship.unity
     guid: eee5fda7c608045c1a231f4c6de50c99
   - enabled: 0
     path: Assets/Scenes/practice/pirateship_2.unity
     guid: ecdfcee7d56e34dbbb09ceddc62b1dc1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/practice/project.unity
     guid: 9ef4e562d2a2246c1a9d2a440439505e
+  - enabled: 1
+    path: Assets/Scenes/ImmersiveWorld.unity
+    guid: 503c760bc4e814903b630e04d6ba7689
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9f1bc78da32d2094e96e34486ed87860,
       type: 2}

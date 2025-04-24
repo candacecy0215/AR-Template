@@ -2,17 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class annotation : MonoBehaviour
+public class interactions : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    bool annotationVisible = false;
+    public GameObject annotation;
 
-    // Update is called once per frame
-    void Update()
+    public void selected()
     {
-        
+        Debug.Log("show selected");
+        if (annotationVisible)
+        {
+            annotation.SetActive(false);
+            annotationVisible = false;
+
+        } else {
+            annotation.SetActive(true);
+            annotationVisible = true;
+
+        }
     }
 }
