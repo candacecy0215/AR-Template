@@ -10,7 +10,7 @@ public class fallingbehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,10 +19,18 @@ public class fallingbehaviour : MonoBehaviour
         
     }
 
-    private void onTriggerEnter(Collider other){
-        if(other.tag == "Player")
-        {
-            animator.SetTrigger("falling");
-        }
-    }
+public void SelectGift()
+{
+gameObject.SetActive(true);
+
+
+    animator.SetTrigger("falling");
+}
+
+    // private void onTriggerEnter(Collider other){
+    //     if(other.tag == "Player")
+    //     {
+    //         animator.SetTrigger("falling");
+    //     }
+    // }
 }
