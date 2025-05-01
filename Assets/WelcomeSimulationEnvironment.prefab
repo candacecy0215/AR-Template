@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.85, y: 0.29607, z: 1}
+  m_LocalScale: {x: 0.85, y: 0.924449, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8687952604547441517}
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7f1d579c79ac0442e8d4a7f213a675d0, type: 2}
+  - {fileID: 2100000, guid: a2a7e8db264cd48169186f7cf03659f1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -316,15 +316,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3583619555576856804}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.6571412, y: -0.26108518, z: -0.26108512, w: 0.6571412}
-  m_LocalPosition: {x: -0.74599695, y: 0.5, z: 0.8130008}
-  m_LocalScale: {x: 0.5, y: 0.01, z: 0.5}
+  m_LocalRotation: {x: -0.66162807, y: -0.24949612, z: -0.24949606, w: 0.66162807}
+  m_LocalPosition: {x: -0.74566966, y: 0.5, z: 1.1051244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6577610204321410567}
   - {fileID: 2102184750908522590}
   m_Father: {fileID: 4365528357719543085}
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -43.336}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: -41.322}
 --- !u!114 &7027700216025616306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,8 +337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39bb24e2bd7a482ca08117fb44b8e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Image: {fileID: 2800000, guid: 076c00661c99bab4397d3fc754e51ade, type: 3}
-  m_ImagePhysicalSizeMeters: {x: 0.501, y: 0.501}
+  m_Image: {fileID: 2800000, guid: e8fe10f4e4f513d46a04647d8a377e62, type: 3}
+  m_ImagePhysicalSizeMeters: {x: 0.301, y: 0.3}
 --- !u!1 &5056272964426416779
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ GameObject:
   - component: {fileID: 4365528357719543085}
   - component: {fileID: 7618165371811446966}
   m_Layer: 31
-  m_Name: GiftboxSimulationEnvironment.prefab
+  m_Name: WelcomeSimulationEnvironment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3929527087209849353}
   - {fileID: 5911072156897761180}

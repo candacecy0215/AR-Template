@@ -10,6 +10,7 @@ public class TrackImage : MonoBehaviour
     public GameObject bellPrefab; //Prefab you want to appear on marker image
     public GameObject giftboxPrefab; //Prefab you want to appear on marker image
     public GameObject wordsPrefab; //Prefab you want to appear on marker image
+    public GameObject welcomePrefab; //Prefab you want to appear on marker image
 
     void Start()
     {
@@ -48,6 +49,11 @@ Debug.Log("start");
             else if(newImage.referenceImage.name == "map")
             {
                 GameObject newObject = GameObject.Instantiate(wordsPrefab);
+                newObject.transform.SetParent(newImage.transform, false);
+            }
+            else if(newImage.referenceImage.name == "hello")
+            {
+                GameObject newObject = GameObject.Instantiate(welcomePrefab);
                 newObject.transform.SetParent(newImage.transform, false);
             }
             source.Play();
