@@ -306,6 +306,8 @@ MonoBehaviour:
     type: 3}
   wordsPrefab: {fileID: 672652323141437408, guid: e014efdd0774e4adeae80f7c356cb537,
     type: 3}
+  welcomePrefab: {fileID: 5118630944620556596, guid: fc7b8f9247ac1a148876b9d489706e1c,
+    type: 3}
 --- !u!114 &336375078
 MonoBehaviour:
   m_ObjectHideFlags: 0
